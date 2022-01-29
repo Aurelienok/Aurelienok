@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>questionnaire</title>
+        <link rel="stylesheet" type="text/css" href="css.css">
+        <script src="java2.js"></script>
+    </head>
+    <body>
+        <br><form name="quest">
+        <form>
+            <div class="mid">
+                <h3>Quizz informatique</h3>
+            <strong>Question 1:</strong>
+            <p>Quel est la couleur du cheval blanc d'Henry IV ?</p>
+                <input type="radio"> a) Bleu<br>
+                <input type="radio"> b) Rouge<br>
+                <input type="radio"> c) Vert<br>
+            <br>
+
+            <strong>Question 2:</strong>
+            <p>En vrai il est quel couleur ?</p>
+                <input type="radio" name="1" value="a" onclick="Engine(1, this.value)"> a) Marron <br>
+                <input type="radio" name="1" value="b" onclick="Engine(1, this.value)"> b) Violet<br>
+                <input type="radio" name="1" value="c" onclick="Engine(1, this.value)"> c) Blanc<br>
+            <br>
+
+            <strong>Question 3:</strong>
+            <p>Que veux dire CNIL ?</p>
+                <input type="radio" name="2" value="a" onclick="Engine(2, this.value)"> a) concour national inter lounge<br>
+                <input type="radio" name="2" value="b" onclick="Engine(2, this.value)"> b) Commission nationale de l'informatique et des libertés<br>
+                <input type="radio" name="2" value="c" onclick="Engine(2, this.value)"> c) Commission narrative de l'importance des libertés<br>    
+            <br>
+
+            <strong>Question 4:</strong>
+            <p>50x10 ?</p>
+                <input type="radio" name="3" value="a" onclick="Engine(3, this.value)"> a) 5000<br>
+                <input type="radio" name="3" value="b" onclick="Engine(3, this.value)"> b) 500<br>
+                <input type="radio" name="3" value="c" onclick="Engine(3, this.value)"> c) 50</br>
+            <br>
+            <strong>Question 5:</strong>
+            <p>Blablablabla ?</p>
+                <input type="radio" name="4" value="a" onclick="Engine(4, this.value)"> a) Vrai<br>
+                <input type="radio" name="4" value="b" onclick="Engine(4, this.value)"> b) Faux<br>
+                <input type="radio" name="4" value="c" onclick="Engine(4, this.value)"> c) Faux
+            <br><br>
+
+            <strong>Question 6 :</strong>
+            <p>Que signifient les trois lettres "www" en informatique ?</p>
+                <input type="radio" name="5" value="a" onclick="Engine(5, this.value)"> Wid Word web<br>
+                <input type="radio" name="5" value="b" onclick="Engine(5, this.value)"> Word Wid wWb<br>
+                <input type="radio" name="5" value="c" onclick="Engine(5, this.value)"> World Wid Wed<br>
+
+            <strong>Question 7 :</strong>
+            <p>Quelle est la signification du mot « Périphérique » en informatique ?</p>
+                <input type="radio" name="6" value="a" onclick="Engine(6, this.value)"> Les ligiciels installés sur le PC<br>
+                <input type="radio" name="6" value="b" onclick="Engine(6, this.value)"> Les différents composants matériels du PC<br>
+                <input type="radio" name="6" value="c" onclick="Engine(6, this.value)"> L'électricité qui circule dans le processeur<br>
+
+            <strong>Question 8 :</strong>
+            <p>Que signifie le 'A' de 'ADSL'?</p>
+                <input type="radio" name="7" value="a" onclick="Engine(7, this.value)"> Asymmetrical<br>
+                <input type="radio" name="7" value="b" onclick="Engine(7, this.value)"> Attention<br>
+                <input type="radio" name="7" value="c" onclick="Engine(7, this.value)">Asynchronous<br>
+
+            <strong>Question 9 :</strong>
+            <p>Bla ?</p>
+                <input type="radio" name="8" value="a" onclick="Engine(8, this.value)"> Bleu<br>
+                <input type="radio" name="8" value="b" onclick="Engine(8, this.value)"> Bloom<br>
+                <input type="radio" name="8" value="c" onclick="Engine(8, this.value)"> Blou<br>
+
+            <strong>Question 10 :</strong>
+            <p>Quelle note j'ai ?</p>
+                <input type="radio" name="9" value="a" onclick="Engine(9, this.value)">20/20<br>
+                <input type="radio" name="9" value="b" onclick="Engine(9, this.value)">14<br>
+                <input type="radio" name="9" value="c" onclick="Engine(9, this.value)">5<br>
+                <br>
+
+            <p><input type="submit" name="Resultats" value="Résultats" onclick="NextLevel()">
+            <input type="reset" name="effacer" value="recommencer">
+            </p>
+            </div>
+        </form>
+    </body>
+</html>
