@@ -1,0 +1,116 @@
+p,h1,h2,h3,h4,ul,li,ol,.rect
+{
+	color: rgb(0, 255, 255);
+}
+
+li
+
+.awe
+{
+	color: Red;
+}
+
+h1
+{
+	text-align: left;
+}
+
+ul
+{
+	list-style: none;
+}
+
+h1
+{
+	font-size: 80px;
+}
+
+.damacia
+{
+	color: rgb(0, 255, 117);
+}
+
+.damacia
+{
+	font-size: 90px;
+}
+
+.ligne
+{
+	text-decoration: underline overline #FF00E0;
+}
+
+p,h1,h2,h3,h4,li,ul,ol,table,th,td
+{
+	text-align: center;
+	position: relative;
+}
+
+.marge
+{
+	margin-top: 50px;
+}
+
+.box
+{
+	box-shadow: 10px 10px 5px rgb(240, 0, 255);
+	widht: 300px;
+	padding: 10px 10px 20px 10px;
+	position:  relative;
+	display: inline-table;
+}
+
+body
+{
+	background-image: url("shrek'koz.png");
+	background-attachment: fixed;
+}
+
+.insta
+{
+	position: relative;
+	left: 200px
+}
+
+.mail
+{
+	position: relative;
+	left: 100px;
+}
+
+table
+{
+	border-collapse: collapse;
+	position: relative;
+	left: 820px;
+}
+
+th
+{
+	border:5px solid rgb(240, 0, 255);
+	position: relative;
+}
+
+td
+{
+	border: 5px solid rgb(240, 0, 255);
+	position: relative;
+}
+
+.rect 
+{
+  position: down;
+  padding : 2em;
+  border : 0.7em solid rgb(240, 0, 255);
+  width  : 14em;
+  height : 9em;
+  border-radius: 20%;
+  position:  relative;
+  text-align: center;
+  left: 780px;
+}
+
+.forma
+{
+	font-size: 1.7em;
+}
