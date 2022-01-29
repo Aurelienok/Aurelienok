@@ -8,3 +8,6 @@ nav{
   border: 5px solid rgb(0, 255, 0);
   background-image: url(bois.jpg);
 }
+body
+{
+	background-color: rgb(0, 0, 0);
