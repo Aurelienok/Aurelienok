@@ -12,3 +12,9 @@ nav{
   border: 5px solid rgb(0, 255, 0);
   background-image: url(bois.jpg);
 }
+body 
+{
+background-image:url(zoaun.jpg);
+background-repeat: no-repeat;
+width: 100%;
+}
