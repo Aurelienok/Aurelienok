@@ -91,3 +91,6 @@ nav > ul > li:hover > a{
 .menu-deroulant:hover > .sous-menu {
   animation: apparitionSousMenu 1s forwards;
 }
+body {
+  background-image: url(zoaun.jpg);
+}
